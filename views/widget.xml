@@ -1,3 +1,9 @@
 <Alloy>
-  <ScrollView id="gridView" />
+
+	<ScrollView id="gridView">
+
+		<View id="gridViewContainer" class="gridView__container" />
+
+	</ScrollView>
+
 </Alloy>

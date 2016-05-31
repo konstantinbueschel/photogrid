@@ -1,9 +1,27 @@
 'ScrollView':{
+
     width: Ti.UI.FILL,
     height: Ti.UI.FILL,
+
+	contentWidth: Ti.UI.FILL,
     contentHeight: Ti.UI.SIZE,
-    contentWidth: Ti.UI.FILL,
-    layout:'horizontal',
+
+    layout: 'vertical',
+
     backgroundColor:'transparent',
+
     scrollType:'vertical'
+}
+
+
+'.gridView__container': {
+
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+
+	top: Alloy.Globals.UI.navBar.height,
+
+	layout: 'horizontal',
+
+	backgroundColor: 'transparent'
 }

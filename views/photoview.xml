@@ -1,5 +1,9 @@
 <Alloy>
-    <Window id="photos_win">
+
+	<Window id="photos_win" onOpen="init" onClose="cleanup" onClick="onPhotoClick">
+
         <ScrollableView id="photos" />
+
     </Window>
+
 </Alloy>

@@ -1,15 +1,34 @@
-"Window":{
-    backgroundColor: '#000',
+'Window':{
+
+    backgroundColor: 'black',
+
     orientationModes: [
+
         Ti.UI.LANDSCAPE_LEFT,
         Ti.UI.LANDSCAPE_RIGHT,
-        Ti.UI.PORTRAIT,
+        Ti.UI.PORTRAIT
         Ti.UI.UPSIDE_PORTRAIT
     ],
+
     fullscreen: true,
     navBarHidden: true
-},
-"#photos":{
+}
+
+
+'Window[platform=ios]': {
+
+	opacity: 0.0
+}
+
+
+'Window[platform=android]': {
+
+	theme: 'Theme.AppCompat.NoTitleBar.Fullscreen'
+}
+
+
+'#photos': {
+
     width: Ti.UI.FILL,
     height: Ti.UI.FILL
 }
